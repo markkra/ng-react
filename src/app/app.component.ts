@@ -8,7 +8,7 @@ import RenderHelloReactWorld from './react-components/HelloReactWorld';
 })
 export class AppComponent implements OnInit {
 
-  title = 'Rendering a React Comoponent';
+  title = 'I\'m an Angular component rendering a React Component';
 
   ngOnInit(): void {
     RenderHelloReactWorld('#reactHost', {name: 'Fred Flintstone'});
