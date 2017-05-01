@@ -50,10 +50,7 @@ const postcssPlugins = function () {
 module.exports = {
   "devtool": "source-map",
   "resolve": {
-    "extensions": [
-      ".ts",
-      ".js"
-    ],
+    "extensions": [ '.ts', '.tsx', '.js', '.json', '.jsx'],
     "modules": [
       "./node_modules"
     ]
