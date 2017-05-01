@@ -341,7 +341,7 @@ module.exports = {
 })
       },
       {
-        "test": /\.ts|tsx|jsx|js$/,
+        "test": /\.ts|tsx|jsx$/,
         "loader": "@ngtools/webpack"
       }
     ]

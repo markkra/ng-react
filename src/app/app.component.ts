@@ -6,11 +6,11 @@ import RenderHelloReactWorld from './react-components/HelloReactWorld';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
 
-  title = 'app works!';
+  title = 'Rendering a React Comoponent';
 
   ngOnInit(): void {
-    RenderHelloReactWorld('#reactHost', { name: 'Fred Flintstone' });
+    RenderHelloReactWorld('#reactHost', {name: 'Fred Flintstone'});
   }
 }
