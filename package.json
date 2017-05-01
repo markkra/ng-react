@@ -54,6 +54,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "karma-sourcemap-loader": "^0.3.7",
+    "karma-typescript": "^3.0.1",
     "less-loader": "^4.0.2",
     "postcss-loader": "^1.3.3",
     "postcss-url": "^5.1.2",
