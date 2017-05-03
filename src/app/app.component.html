@@ -2,3 +2,23 @@
   {{title}}
 </h1>
 <div id='reactHost'></div>
+<angular-date-range-picker [(ngModel)]="selectedDateRange"></angular-date-range-picker>
+<pre>{{selectedDateRange | json}}</pre>
+
+<h4>Angular inputs</h4>
+<div class="msgHost">
+  <label>Agent:</label>
+  <input #agent (keyup.enter)="postMsg(2, agent)" (blur)="postMsg(2, agent)"/>
+</div>
+
+
+<div class="msgHost">
+  <label>Customer:</label>
+  <input #customer (keyup.enter)="postMsg(1, customer)" (blur)="postMsg(1, customer)"/>
+</div>
+
+<h4>React components</h4>
+<div id='chatHost'></div>
+
+
+

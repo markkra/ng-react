@@ -44,9 +44,6 @@ const postcssPlugins = function () {
         ].concat(minimizeCss ? [cssnano({ safe: true, autoprefixer: false })] : []);
     };
 
-
-
-
 module.exports = {
   "devtool": "source-map",
   "resolve": {

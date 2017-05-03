@@ -1,0 +1,15 @@
+
+
+#chatHost {
+  margin-top: 50px;
+  /*height: 100%;*/
+}
+
+.msgHost{
+  width: 50%;
+}
+
+.msgHost > input {
+  width: 100%;
+}
+
